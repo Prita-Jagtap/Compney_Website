@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+                <img src="abc.png" alt="Jagtap Company Logo" style="height: 40px; width: 40px;">
+
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                            Home</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                            Skills</a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                            About </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                            Project </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact"> Contact Me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Priti Jagtap</h1>
+                <h4 class="sub-heading">
+                    A MSC Computer Science Student.
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn"><a href="resume.pdf" download>Get Resume</a></button>
+            </div>
+        </div>
+    </section>
+    <!-- My Skills -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">My Skills</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="frontend.png" alt="Web Design Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Frontend Technologies</h3>
+                        <p class="small-para blue-text">HTML , CSS , Javascript , TailwindCss , React</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="backend.png" alt="Web Development Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Backend Technologies
+                        </h3>
+                        <p class="small-para blue-text">Java , Nodejs , Express , PHP</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="database.png" alt="SEO Image">
+                        </div>
+                        <h3 class="greet-heading blue-text">Database</h3>
+                        <p class="small-para blue-text">MySQL , MongoDB </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                I’m Priti Jagtap, an MSC Computer Science student passionate about web development, design, and
+                full-stack Development
+                I love crafting responsive and interactive websites that offer seamless user experiences. I’ve worked on
+                several personal and academic projects that reflect my skills in frontend, backend, and full-stack
+                development.
+            </p>
+            <p>
+                I am always exploring new technologies, frameworks, and design trends. My goal is to become a versatile
+                developer who builds applications that make a difference.
+            </p>
+
+        </div>
+        <div class="about-image">
+            <img src="about.jpg" alt="About Image">
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Full Stack Development<br>FitTrack Pro – Fitness Tracker
+                            Website</h3>
+                        <p class="small-para">
+                            HTML, CSS, JavaScript, Node.js, Express.js, MongoDB
+                        </p>
+                        <p class="small-para">
+                            A complete fitness tracking web app where users can log workouts, track calories, view
+                            progress charts,
+                            see weather data, and export workout data to CSV. Includes user authentication and mobile
+                            responsiveness.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Frontend Development<br>Personal Wardrobe Organizer
+                        </h3>
+                        <p class="small-para">
+                            Tech Stack: HTML, CSS, JavaScript (Vanilla)
+                        </p>
+                        <p class="small-para">
+                            A stylish web application that allows users to manage their wardrobe items, create outfits,
+                            filter by season or occasion, and plan their weekly dress schedule. Includes responsive
+                            design, modal forms, and localStorage.
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text"> Python Project<br> ExpenseManager CLI – Budget Tracker</h3>
+                        <p class="small-para">
+                            Tech Stack: Python (CLI-based), SQLite
+                        </p>
+                        <p class="small-para">
+                            A command-line interface app that helps users manage their daily expenses. Users can add,
+                            delete, update, and categorize expenses. It calculates total monthly spending and supports
+                            CSV export.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            PHP + MySQL Project<br>Tech Stack:
+                        </h3>
+                        <p class="small-para">
+
+
+                            PHP, MySQL, HTML, CSS, Bootstrap
+                        </p>
+                        <p class="small-para">
+                            A web application for managing online courses,
+                            where admins can add courses and students, and
+                            students can register and track their progress.
+                            Includes login systems and role-based access using PHP sessions.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Frontend + API Integration<br> WeatherFit – Fitness + Weather App
+                        </h3>
+                        <p class="small-para">
+                            HTML, CSS, JavaScript, OpenWeather API
+                        </p>
+                        <p class="small-para">
+                            A responsive frontend project that combines workout tracking with real-time weather updates.
+                            Users can log workouts and get motivational weather-based tips (like "Go for a jog, it’s
+                            sunny!").
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">
+                            Python + Flask Full Stack<br>FoodLogger – Calorie Intake & Nutrition App
+                        </h3>
+                        <p class="small-para">
+                            Tech Stack: Python, Flask, HTML, CSS, SQLite
+                        </p>
+                        <p class="small-para">
+                            A lightweight full stack application where users can enter food items, calculate calorie
+                            intake, and view nutrition summaries with graphs. The backend is powered by Flask and data
+                            is stored in SQLite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2 class="contact-title">Get in Touch</h2>
+                <form class="contact-form" id="contactForm" action="http://localhost:5000/api/contacts" method="POST">
+                    <input class="form-controls" type="text" placeholder="Your Name" name="name" required>
+                    <input class="form-controls" type="email" placeholder="Your Email" name="email" required>
+                    <input class="form-controls" type="text" placeholder="Your Phone" name="phone">
+                    <textarea class="form-controls" placeholder="Write your message" name="message" rows="6"
+                        required></textarea>
+                    <button type="submit" class="form-btn btn common-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details-wrapper">
+                <h2 class="contact-title">My Contact Details</h2>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">priti@gmail.com</p>
+
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 0123456789</p>
+
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 0123456789</p>
+
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">San Francisco, CA</p>
+                    <p class="contact-text">4th Flovar, Sambhajinagar</p>
+                    <p class="contact-text">Kubharwada Pune 411052</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+    </section>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+
+            try {
+                const response = await fetch("http://localhost:5000/api/contacts", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(data)
+                });
+                const result = await response.json();
+                if (result.success) alert(result.message); // Message sent successfully
+                else alert("Failed to send message.");
+            } catch (error) {
+                console.error(error);
+                alert("Something went wrong.");
+            }
+        });
+    </script>
+
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2025 All rights reserved |
+                This portfolio website is created
+                by priti jagtap.
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>

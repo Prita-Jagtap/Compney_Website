@@ -1,0 +1,15 @@
+CREATE DATABASE portfolio;
+
+USE portfolio;
+
+CREATE TABLE contacts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(100),
+  phone VARCHAR(15),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+SELECT * FROM contacts;
+DELETE FROM contacts;
